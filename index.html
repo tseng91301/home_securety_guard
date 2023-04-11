@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="info/style.css" rel="stylesheet">
+    <title>Home security system</title>
+    <script src="info/info.js"></script>
+    <script src="info/jquery.min.js"></script>
+</head>
+<body>
+    <div id="head_sec">
+        <div id="title">
+            <h1>居家保全系統</h1>
+        </div>
+        <div id="contorl_center">
+            <div id="home_tit" class="contorl_func">
+                user的家
+            </div>
+            <div id="add_device" class="contorl_func" onclick="add_device_()">新增裝置</div>
+            <div id="refresh" class="contorl_func" onclick="list_devices()">重新整理</div>
+        </div>
+    </div>
+    <div id="body_sec">
+        <div id="deviceadd_page">
+            自訂裝置名稱:&emsp;<input id="deviceadd_name" type="text"><br>
+            裝置類型:&emsp;<select id="deviceadd_type">
+                <option value="1">緊急按鈕</option>
+            </select><br>
+            裝置ip位址:&emsp;<input id="deviceadd_ip" type="text"><br>
+            裝置secret code:&emsp;<input id="deviceadd_secret_code" type="text"><br/><br>
+            <button id="ad_dev_but" onclick="added_device()">新增裝置</button>
+            <button onclick="cancel_add_device()">取消</button>
+        </div>
+        <div id="deviceinf_page">
+            
+        </div>
+        <div id="devicelist_page">
+            
+        </div>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+#head_sec{
+    background-color: aquamarine;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 150px;
+}
+#title{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+}
+#contorl_center{
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #4cffda;
+}
+#home_tit{
+    left: 10px;
+}
+#add_device{
+    right: 0px;
+    background: #c6ff7b;
+}
+#refresh{
+    right: 170px;
+    background-color: aqua;
+}
+.contorl_func{
+    position: absolute;
+    bottom: 0px;
+    width: auto;
+    height: 25px;
+    font-size: 25px;
+    font-family: system-ui;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+#body_sec{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+.dev_page{
+    height: auto;
+    background-color: beige;
+    padding: 20px;
+    border: 20px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 40px;
+}
+#deviceadd_page {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    background: #95ffff;
+    left: 50%;
+    margin-left: -250px;
+    top: 10px;
+    border-radius: 40px;
+    display: none;
+    padding: 30px;
+}
+#deviceinf_page{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    background: #95ffff;
+    left: 50%;
+    margin-left: -250px;
+    top: 10px;
+    border-radius: 40px;
+    display: none;
+    padding: 30px;
+}
+#deviceinf_page button{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
